@@ -1,0 +1,39 @@
+server:
+  port: 8082
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml                      # mapper映射文件
+  #  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
+  type-aliases-package: entity   # 所有Entity别名类所在包
+
+#统一配置客户端  本地配置文件需改为bootstrap提高优先级，避免被属性覆盖一直使用默认地址抓取统一配置
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: springcloud-config-server  # 注册中心的服务名统一配置中心名
+      profile: dev  # 指定配置文件的环境
+      name: application #文件名，实际为name+profile
+
+#      如果获取统一配置时注册中心端口为默认值可以不配置获取，否者一定要配置
+eureka:
+  client: #客户端注册进eureka服务列表内
+    #eureka服务端的地址
+    service-url:
+      defaultZone: http://eureka8080.com:8080/eureka/
+      # defaultZone: http://eureka8080.com:8080/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: first-provider8082 #自定义服务名称信息
+    prefer-ip-address: true     #访问路径可以显示IP地址
+  #
+  #当在eureka里面点击服务名字时，返回json而不是404
+  #info:
+  #  app.name: atguigu-microservicecloud
+  #  company.name: www.atguigu.com
+  #
+  #  #可能是我父pom里面的插件配置的有问题，以下两个变量的值我没取到
+  #  build.artifactId: $project.artifactId$
+  #  build.version: $project.version$
+
+

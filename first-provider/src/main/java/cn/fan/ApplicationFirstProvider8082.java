@@ -11,6 +11,7 @@ import sun.applet.Main;
  * Auth Mr.fgy
  * Date 2019/12/25 15:08
  **/
+
 @SpringBootApplication
 @EnableEurekaClient
 @MapperScan("cn.fan.dao")

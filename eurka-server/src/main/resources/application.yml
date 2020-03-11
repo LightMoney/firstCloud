@@ -16,7 +16,7 @@ eureka:
     #     register-with-eureka: false #服务注册,是否将自己注册到Eureka服务中
     #     fetch-registry: false #服务发现,是否从Eureka中获取注册信息
      serviceUrl: #Eureka客户端与Eureka服务端的交互地址,高可用状态配对方的地址,单机状态配自己的地址(如果不配置,默认本机8761端口)
-         #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+         defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
         # defaultZone: http://localhost:8771/eureka/
         #集群配置
-        defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+#        defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
