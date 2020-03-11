@@ -1,0 +1,4 @@
+cn\fan\service\DeptClientService.class
+cn\fan\service\DeptClientServiceFallbackFactory.class
+cn\fan\service\DeptClientServiceFallbackFactory$1.class
+cn\fan\entity\Dept.class

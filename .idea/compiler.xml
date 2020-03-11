@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api" />
+        <module name="config-client" />
+        <module name="consumer-feign" />
+        <module name="dashboard" />
+        <module name="eurka-server" />
+        <module name="eurka-server2" />
+        <module name="eurka-server3" />
+        <module name="first-configure" />
+        <module name="first-consumer" />
+        <module name="first-provider" />
+        <module name="hystrix" />
+        <module name="second-provider" />
+        <module name="spring-security" />
+        <module name="test-oauth" />
+        <module name="zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="author-server" target="1.8" />
+      <module name="erureka-server" target="1.8" />
+      <module name="oauth-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

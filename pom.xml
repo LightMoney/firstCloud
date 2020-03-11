@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project [
+        <!ELEMENT project (modelVersion|groupId|artifactId|packaging|version|modules|parent|properties|dependencyManagement|build)*>
+        <!ATTLIST project
+                xmlns CDATA #REQUIRED
+                xmlns:xsi CDATA #REQUIRED
+                xsi:schemaLocation CDATA #REQUIRED>
+        <!ELEMENT modelVersion (#PCDATA)>
+        <!ELEMENT groupId (#PCDATA)>
+        <!ELEMENT artifactId (#PCDATA)>
+        <!ELEMENT packaging (#PCDATA)>
+        <!ELEMENT version (#PCDATA)>
+        <!ELEMENT modules (module)*>
+        <!ELEMENT module (#PCDATA)>
+        <!ELEMENT parent (groupId|artifactId|version)*>
+        <!ELEMENT properties (java.version|tomcat.version|spring-boot.version|springframework.version|mybatis-spring-boot.version|mybatis.version|druid.version|mysql-connector-java.version|netty.version|commons-io.version|org.apache.commons.io.version|commons-fileupload.version|commons-codec.version|commons-lang3.version|okhttp.version|feign-okhttp.version|lombok.version|springfox-swagger.version|fastjson.version|fastdfs-client-java.version|elasticsearch.version|guava.version)*>
+        <!ELEMENT java.version (#PCDATA)>
+        <!ELEMENT tomcat.version (#PCDATA)>
+        <!ELEMENT spring-boot.version (#PCDATA)>
+        <!ELEMENT springframework.version (#PCDATA)>
+        <!ELEMENT mybatis-spring-boot.version (#PCDATA)>
+        <!ELEMENT mybatis.version (#PCDATA)>
+        <!ELEMENT druid.version (#PCDATA)>
+        <!ELEMENT mysql-connector-java.version (#PCDATA)>
+        <!ELEMENT netty.version (#PCDATA)>
+        <!ELEMENT commons-io.version (#PCDATA)>
+        <!ELEMENT org.apache.commons.io.version (#PCDATA)>
+        <!ELEMENT commons-fileupload.version (#PCDATA)>
+        <!ELEMENT commons-codec.version (#PCDATA)>
+        <!ELEMENT commons-lang3.version (#PCDATA)>
+        <!ELEMENT okhttp.version (#PCDATA)>
+        <!ELEMENT feign-okhttp.version (#PCDATA)>
+        <!ELEMENT lombok.version (#PCDATA)>
+        <!ELEMENT springfox-swagger.version (#PCDATA)>
+        <!ELEMENT fastjson.version (#PCDATA)>
+        <!ELEMENT fastdfs-client-java.version (#PCDATA)>
+        <!ELEMENT elasticsearch.version (#PCDATA)>
+        <!ELEMENT guava.version (#PCDATA)>
+        <!ELEMENT dependencyManagement (dependencies)*>
+        <!ELEMENT dependencies (dependency)*>
+        <!ELEMENT dependency (groupId|artifactId|version|type|scope)*>
+        <!ELEMENT type (#PCDATA)>
+        <!ELEMENT scope (#PCDATA)>
+        <!ELEMENT build (finalName|plugins)*>
+        <!ELEMENT finalName (#PCDATA)>
+        <!ELEMENT plugins (plugin)*>
+        <!ELEMENT plugin (groupId|artifactId|configuration)*>
+        <!ELEMENT configuration (source|target|encoding)*>
+        <!ELEMENT source (#PCDATA)>
+        <!ELEMENT target (#PCDATA)>
+        <!ELEMENT encoding (#PCDATA)>
+        ]>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.fan</groupId>
+    <artifactId>firstCloud</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>api</module>
+        <module>eurka-server</module>
+        <module>eurka-server2</module>
+        <module>eurka-server3</module>
+        <module>first-provider</module>
+        <module>second-provider</module>
+        <module>first-consumer</module>
+        <module>consumer-feign</module>
+        <module>hystrix</module>
+        <module>dashboard</module>
+        <module>zuul</module>
+        <module>first-configure</module>
+        <module>config-client</module>
+        <module>spring-security</module>
+        <module>author-server</module>
+        <module>oauth-test</module>
+        <module>test-oauth</module>
+    </modules>
+
+    <properties>
+        <!--项目版本号 ~ -->
+        <project.version>1.0-SNAPSHOT</project.version>
+
+        <java.version>1.8</java.version>
+        <tomcat.version>8.5.28</tomcat.version>
+        <spring-boot.version>2.0.1.RELEASE</spring-boot.version>
+        <springframework.version>5.0.5.RELEASE</springframework.version>
+        <mybatis-spring-boot.version>1.3.1</mybatis-spring-boot.version>
+        <mybatis.version>3.4.5</mybatis.version>
+        <druid.version>1.1.6</druid.version>
+        <mysql-connector-java.version>5.1.45</mysql-connector-java.version>
+        <netty.version>4.1.25.Final</netty.version>
+        <boot-stater.version>1.2.5</boot-stater.version>
+
+        <commons-io.version>2.6</commons-io.version>
+        <org.apache.commons.io.version>1.3.2</org.apache.commons.io.version>
+        <commons-fileupload.version>1.3.3</commons-fileupload.version>
+        <commons-codec.version>1.10</commons-codec.version>
+        <commons-lang3.version>3.6</commons-lang3.version>
+        <okhttp.version>3.9.1</okhttp.version>
+        <feign-okhttp.version>8.18.0</feign-okhttp.version>
+        <lombok.version>1.16.16</lombok.version>
+        <springfox-swagger.version>2.7.0</springfox-swagger.version>
+        <fastjson.version>1.2.30</fastjson.version>
+        <fastdfs-client-java.version>1.27.0.0</fastdfs-client-java.version>
+        <mysql-connector-java.version>5.1.40</mysql-connector-java.version>
+        <elasticsearch.version>6.2.1</elasticsearch.version>
+        <guava.version>24.0-jre</guava.version>
+        <mybatis.generator.version>1.3.5</mybatis.generator.version>
+        <!--日志版本-->
+        <logback.version>1.2.3</logback.version>
+        <!--redis版本-->
+        <spring-data-redis.version>1.8.17.RELEASE</spring-data-redis.version>
+        <!--二维码-->
+        <zxing.version>3.3.0</zxing.version>
+        <qrgen.version>1.4</qrgen.version>
+    </properties>
+
+    <!--版本管理-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.spring.platform</groupId>
+                <artifactId>platform-bom</artifactId>
+                <version>Brussels-SR15</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Dalston.SR5</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!--SpringBoot版本-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector-java.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis-spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>${boot-stater.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>${okhttp.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.netflix.feign</groupId>
+                <artifactId>feign-okhttp</artifactId>
+                <version>${feign-okhttp.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons-io.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${org.apache.commons.io.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-fileupload</groupId>
+                <artifactId>commons-fileupload</artifactId>
+                <version>${commons-fileupload.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${commons-codec.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${springfox-swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${springfox-swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+            <!--<dependency>-->
+            <!--<groupId>net.oschina.zcx7878</groupId>-->
+            <!--<artifactId>fastdfs-client-java</artifactId>-->
+            <!--<version>${fastdfs-client-java.version}</version>-->
+            <!--</dependency>-->
+
+            <dependency>
+                <groupId>cn.bestwu</groupId>
+                <artifactId>fastdfs-client-java</artifactId>
+                <version>1.27</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-high-level-client</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <!--https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch-->
+            <dependency>
+                <groupId>org.elasticsearch</groupId>
+                <artifactId>elasticsearch</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+            </dependency>
+
+            <!--整合Netty-->
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty.version}</version>
+            </dependency>
+            <!--  mybatis 逆向工程  -->
+            <dependency>
+                <groupId>org.mybatis.generator</groupId>
+                <artifactId>mybatis-generator-core</artifactId>
+                <version>${mybatis.generator.version}</version>
+            </dependency>
+            <!--日志版本-->
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-redis</artifactId>
+                <version>${spring-data-redis.version}</version>
+            </dependency>
+            <!-- 二维码支持包 -->
+            <dependency>
+                <groupId>com.google.zxing</groupId>
+                <artifactId>core</artifactId>
+                <version>${zxing.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>net.glxn</groupId>
+                <artifactId>qrgen</artifactId>
+                <version>${qrgen.version}</version>
+            </dependency>
+        </dependencies>
+
+    </dependencyManagement>
+
+    <build>
+        <finalName>springcloud</finalName>
+        <plugins>
+            <!-- java编译插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <!--跳过用例测试-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+            <!--&lt;!&ndash;配置一个插件，在resources路径下的以$开头并结尾之间的为变量，可直接取出来&ndash;&gt;-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-resources-plugin</artifactId>-->
+                <!--<configuration>-->
+                    <!--<delimiters>-->
+                        <!--<delimit>$</delimit>-->
+                    <!--</delimiters>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+        </plugins>
+    </build>
+</project>

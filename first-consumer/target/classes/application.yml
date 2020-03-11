@@ -1,0 +1,7 @@
+server:
+  port: 8089
+eureka:
+  client:
+    register-with-eureka: false #不将本服务注册进eureka
+    service-url:
+      defaultZone: http://eureka8080.com:8080/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
