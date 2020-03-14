@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: springclould-security
+  datasource:
+    url: jdbc:mysql://localhost:3306/cps?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis:
+  mapper-locations: classpath:mapper/*.xml                      # mapper映射文件
+  #  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
+  type-aliases-package: cn.fan.domain   # 所有Entity别名类所在包

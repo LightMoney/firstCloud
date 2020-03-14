@@ -1,5 +1,5 @@
 server:
-  port: 9006
+  port: 8888
 
 eureka:
   client:
@@ -12,8 +12,9 @@ eureka:
 
   #/{name}-{profiles}.yml
   #/{label}/{name}-{profiles}.yml
+# /name/profiles
 #  访问文件规则
-
+#first-provider配置了抓取
 spring:
   application:
     name: springcloud-config-server

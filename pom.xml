@@ -74,9 +74,8 @@
         <module>first-configure</module>
         <module>config-client</module>
         <module>spring-security</module>
-        <module>author-server</module>
-        <module>oauth-test</module>
         <module>test-oauth</module>
+        <module>springcloud-security</module>
     </modules>
 
     <properties>

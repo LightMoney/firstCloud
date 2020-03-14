@@ -6,7 +6,7 @@ mybatis:
   #  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
   type-aliases-package: entity   # 所有Entity别名类所在包
 
-#统一配置客户端  本地配置文件需改为bootstrap提高优先级，避免被属性覆盖一直使用默认地址抓取统一配置
+#统一配置客户端  本地配置文件需改为bootstrap提高优先级（或者将统一配置服务端口改为默认的8888），避免被属性覆盖一直使用默认地址抓取统一配置
 spring:
   cloud:
     config:
