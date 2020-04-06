@@ -23,10 +23,10 @@ spring:
           max-wait-millis: 200                                  # 等待连接获取的最大超时时间
 
 pagehelper:
-    helperDialect: mysql
-    reasonable: true
-    supportMethodsArguments: true
-#    params: count=countSql
+    helperDialect: mysql      #方言
+    reasonable: true        #分页合理化参数，默认值为 false 。当该参数设置为 true 时， pageNum<=0 时会查询第一页， pageNum>pages （超过总数时），会查询最后一页。默认 false 时，直接根据参数进行查询。
+    supportMethodsArguments: true  #支持通过 Mapper 接口参数来传递分页参数，默认值 false ，分页插件会从查询方法的参数值中，自动根据上面 params 配置的字段中取值，查找到合适的
+    params: count=countSql
 
 eureka:
   client: #客户端注册进eureka服务列表内

@@ -6,21 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcloud-security" />
         <module name="config-client" />
         <module name="eurka-server2" />
         <module name="eurka-server3" />
         <module name="consumer-feign" />
-        <module name="test-oauth" />
-        <module name="spring-security" />
+        <module name="oauth2" />
         <module name="zuul" />
+        <module name="api" />
         <module name="second-provider" />
         <module name="hystrix" />
         <module name="eurka-server" />
         <module name="first-provider" />
         <module name="first-configure" />
         <module name="dashboard" />
-        <module name="api" />
+        <module name="oauth2-resource" />
         <module name="first-consumer" />
       </profile>
     </annotationProcessing>
@@ -28,10 +27,15 @@
       <module name="author-server" target="1.8" />
       <module name="erureka-server" target="1.8" />
       <module name="oauth-test" target="1.8" />
+      <module name="spring-security" target="1.8" />
+      <module name="springcloud-security" target="1.8" />
+      <module name="test-oauth" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="oauth2" options="" />
+      <module name="oauth2-resource" options="" />
       <module name="springcloud-security" options="" />
     </option>
   </component>

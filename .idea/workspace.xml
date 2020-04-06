@@ -2,35 +2,137 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6858e419-b56e-410e-8529-dde5b4564b3c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-security/src/main/resources/pub.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/config/CustomPermissionEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/dao/SysPermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/dao/SysRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/dao/SysUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/dao/SysUserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/handler/LoginSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/result/CommonCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/result/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/result/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/result/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/service/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/service/SysPermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/service/SysRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/service/SysUserRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/service/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/web/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-security/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/cn/fan/oauth2resource/config/RequestInterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/cn/fan/oauth2resource/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/cn/fan/oauth2resource/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/cn/fan/oauth2/config/AuthServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/cn/fan/oauth2/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/cn/fan/oauth2/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/cn/fan/oauth2/controller/JdbcTokenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/cn/fan/oauth2/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/cn/fan/oauth2/model/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/cn/fan/oauth2/model/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/cn/fan/oauth2/service/UserLoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-configure/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/first-configure/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-configure/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/first-configure/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-provider/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/first-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/cn/fan/config/PageConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/cn/fan/entity/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/cn/fan/service/DeptClientService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/cn/fan/service/DeptClientServiceFallbackFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/cn/fan/service/DeptClientServiceFallbackFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-client/target/classes/cn/fan/ConfigClientApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-client/target/classes/cn/fan/controller/ClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-feign/target/classes/cn/fan/DeptFeignConsumer80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-feign/target/classes/cn/fan/config/ConfigBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-feign/target/classes/cn/fan/controller/DeptController_Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-feign/target/classes/cn/myrule/MySelfRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-feign/target/classes/cn/myrule/RandomRule_ZY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/cn/fan/DeptConsumer_DashBoard9001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurka-server2/target/classes/cn/fan/eurkaserver/EurkaServer7002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurka-server3/target/classes/cn/fan/eurkaserver/EurkaServer7003.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-configure/target/classes/cn/fan/ConfigServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-consumer/target/classes/cn/fan/DeptConsumer8089.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-consumer/target/classes/cn/fan/config/ConfigBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-consumer/target/classes/cn/fan/controller/DeptController_Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-consumer/target/classes/cn/myrule/MySelfRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-consumer/target/classes/cn/myrule/RandomRule_ZY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-provider/target/classes/cn/fan/ApplicationFirstProvider8082.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-provider/target/classes/cn/fan/controller/DeptController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-provider/target/classes/cn/fan/dao/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-provider/target/classes/cn/fan/service/DeptService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-provider/target/classes/cn/fan/service/impl/DeptServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hystrix/target/classes/cn/fan/HystrixProvider8001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hystrix/target/classes/cn/fan/controller/DeptController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hystrix/target/classes/cn/fan/dao/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hystrix/target/classes/cn/fan/service/DeptService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hystrix/target/classes/cn/fan/service/impl/DeptServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/second-provider/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second-provider/target/classes/cn/fan/SecondProvider8002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second-provider/target/classes/cn/fan/controller/DeptController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second-provider/target/classes/cn/fan/dao/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second-provider/target/classes/cn/fan/service/DeptService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second-provider/target/classes/cn/fan/service/impl/DeptServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/ApplicationSecurity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/dao/SysPermissionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/dao/SysRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/dao/SysUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/dao/SysUserRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/domain/SysPermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/domain/SysRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/domain/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/domain/SysUserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/enmn/LoginType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/filter/VerifyFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/security/CustomPermissionEvaluator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/security/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/security/Oauth2ServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/security/ResourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/security/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/service/SysPermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/service/SysRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/service/SysUserRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/service/SysUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/cn/fan/servlet/VerifyServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/resources/pub.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/ApplicationSecurity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/dao/SysPermissionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/dao/SysRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/dao/SysUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/dao/SysUserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/domain/SysPermission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/domain/SysRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/domain/SysUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/domain/SysUserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/enmn/LoginType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/filter/VerifyFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/security/CustomPermissionEvaluator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/security/CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/security/Oauth2ServerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/security/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/service/SysPermissionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/service/SysRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/service/SysUserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/service/SysUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/cn/fan/servlet/VerifyServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/config/CustomPermissionEvaluator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/dao/SysPermissionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/dao/SysRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/dao/SysUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/dao/SysUserRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/handler/LoginSuccessHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/result/CommonCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/result/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/result/ResponseResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/result/ResultCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/service/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/service/SysPermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/service/SysRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/service/SysUserRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/service/SysUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/cn/fan/web/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-oauth/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-oauth/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/target/classes/cn/fan/ZuulMainApplication5555.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +141,12 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideInfoMessages" value="true" />
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+    <option name="HIDE_INFO_MESSAGES" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,7 +206,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-security/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/oauth2-resource/src/main/java/cn/fan/oauth2resource/config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -108,21 +216,22 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.fan.oauth2resource" />
       <recent name="cn.fan" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\firstCloud\springcloud-security\src\main\resources" />
-      <recent name="E:\workspace\firstCloud\springcloud-security\src\main\java\cn\fan\service" />
-      <recent name="E:\workspace\firstCloud\springcloud-security\src\main\java\cn\fan" />
-      <recent name="E:\workspace\firstCloud\springcloud-security\src\main\java\cn\fan\dao" />
-      <recent name="E:\workspace\firstCloud\springcloud-security\src\main\java\cn\fan\domain" />
+      <recent name="E:\workspace\firstCloud\oauth2-resource\src\main\java\cn\fan\oauth2resource\config" />
+      <recent name="E:\workspace\firstCloud\oauth2\src\main\java\cn\fan\oauth2\controller" />
+      <recent name="E:\workspace\firstCloud\oauth2\src\main\java\cn\fan\oauth2" />
+      <recent name="E:\workspace\firstCloud\oauth2\src\main\java\cn\fan\oauth2\service" />
+      <recent name="E:\workspace\firstCloud\oauth2\src\main\java\cn\fan\oauth2\model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.fan.oauth2.controller" />
       <recent name="cn.fan.config" />
       <recent name="cn.fan.handler" />
       <recent name="cn.fan.web" />
       <recent name="cn.fan.security" />
-      <recent name="cn.myrule" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\firstCloud\spring-security\src\main\resources" />
@@ -139,7 +248,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApplicationFirstProvider8082">
+  <component name="RunManager" selected="Spring Boot.Oauth2Application">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -233,6 +342,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Oauth2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oauth2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.fan.oauth2.Oauth2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oauth2ResourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oauth2-resource" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.fan.oauth2resource.Oauth2ResourceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SecondProvider8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="second-provider" />
       <extension name="coverage">
@@ -265,6 +388,8 @@
       <item itemvalue="Spring Boot.ApplicationSecurity" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.ApplicationFirstProvider8082" />
+      <item itemvalue="Spring Boot.Oauth2Application" />
+      <item itemvalue="Spring Boot.Oauth2ResourceApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -285,6 +410,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -334,6 +464,11 @@
       <workItem from="1583998633811" duration="3419000" />
       <workItem from="1584067565030" duration="2302000" />
       <workItem from="1584159229333" duration="50000" />
+      <workItem from="1584348938242" duration="963000" />
+      <workItem from="1584423239166" duration="672000" />
+      <workItem from="1584524190170" duration="1007000" />
+      <workItem from="1584578824877" duration="5408000" />
+      <workItem from="1586141855226" duration="20953000" />
     </task>
     <servers />
   </component>
@@ -349,70 +484,82 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="313" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1583918500328" />
-    <state x="427" y="298" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584069408009">
+    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1586142608922">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="427" y="298" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1584069408009" />
-    <state x="546" y="252" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584069411557">
+    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1586142608922" />
+    <state x="427" y="298" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586152546635">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="546" y="252" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1600.860@0.0.1600.860" timestamp="1584069411557" />
-    <state x="667" y="150" key="FileChooserDialogImpl" timestamp="1584001509737">
+    <state x="427" y="298" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1586152546634" />
+    <state x="546" y="252" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1586152550738">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="667" y="150" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1584001509737" />
-    <state width="917" height="154" key="GridCell.Tab.0.bottom" timestamp="1583981383972">
+    <state x="546" y="252" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1600.860@0.0.1600.860" timestamp="1586152550738" />
+    <state x="667" y="150" key="FileChooserDialogImpl" timestamp="1584585796359">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="917" height="154" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583981383972" />
-    <state width="917" height="154" key="GridCell.Tab.0.center" timestamp="1583981383972">
+    <state x="667" y="150" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1584585796359" />
+    <state width="1069" height="315" key="GridCell.Tab.0.bottom" timestamp="1586166198883">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="917" height="154" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583981383972" />
-    <state width="917" height="154" key="GridCell.Tab.0.left" timestamp="1583981383971">
+    <state width="1069" height="315" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586166198883" />
+    <state width="1069" height="315" key="GridCell.Tab.0.center" timestamp="1586166198883">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="917" height="154" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583981383971" />
-    <state width="917" height="154" key="GridCell.Tab.0.right" timestamp="1583981383972">
+    <state width="1069" height="315" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586166198883" />
+    <state width="1069" height="315" key="GridCell.Tab.0.left" timestamp="1586166198883">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="917" height="154" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583981383972" />
-    <state width="917" height="154" key="GridCell.Tab.1.bottom" timestamp="1583981383972">
+    <state width="1069" height="315" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586166198883" />
+    <state width="1069" height="315" key="GridCell.Tab.0.right" timestamp="1586166198883">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="917" height="154" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583981383972" />
-    <state width="917" height="154" key="GridCell.Tab.1.center" timestamp="1583981383972">
+    <state width="1069" height="315" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586166198883" />
+    <state width="1069" height="315" key="GridCell.Tab.1.bottom" timestamp="1586166198884">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="917" height="154" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1583981383972" />
-    <state width="917" height="154" key="GridCell.Tab.1.left" timestamp="1583981383972">
+    <state width="1069" height="315" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586166198884" />
+    <state width="1069" height="315" key="GridCell.Tab.1.center" timestamp="1586166198883">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="917" height="154" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1583981383972" />
-    <state width="917" height="154" key="GridCell.Tab.1.right" timestamp="1583981383972">
+    <state width="1069" height="315" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1586166198883" />
+    <state width="1069" height="315" key="GridCell.Tab.1.left" timestamp="1586166198883">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="917" height="154" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1583981383972" />
-    <state width="917" height="154" key="GridCell.Tab.2.bottom" timestamp="1583981383972">
+    <state width="1069" height="315" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1586166198883" />
+    <state width="1069" height="315" key="GridCell.Tab.1.right" timestamp="1586166198884">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="917" height="154" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583981383972" />
-    <state width="917" height="154" key="GridCell.Tab.2.center" timestamp="1583981383972">
+    <state width="1069" height="315" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1586166198884" />
+    <state width="1069" height="315" key="GridCell.Tab.2.bottom" timestamp="1586164340775">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="917" height="154" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1583981383972" />
-    <state width="917" height="154" key="GridCell.Tab.2.left" timestamp="1583981383972">
+    <state width="1069" height="315" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586164340775" />
+    <state width="1069" height="315" key="GridCell.Tab.2.center" timestamp="1586164340775">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="917" height="154" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1583981383972" />
-    <state width="917" height="154" key="GridCell.Tab.2.right" timestamp="1583981383972">
+    <state width="1069" height="315" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1586164340775" />
+    <state width="1069" height="315" key="GridCell.Tab.2.left" timestamp="1586164340774">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="917" height="154" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1583981383972" />
-    <state x="349" y="144" key="new project wizard" timestamp="1584067743910">
+    <state width="1069" height="315" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1586164340774" />
+    <state width="1069" height="315" key="GridCell.Tab.2.right" timestamp="1586164340775">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="349" y="144" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1584067743910" />
+    <state width="1069" height="315" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1586164340775" />
+    <state x="480" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584578824909">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="480" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1584578824909" />
+    <state x="476" y="163" width="647" height="534" key="find.popup" timestamp="1586166878910">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="476" y="163" width="647" height="534" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1586166878910" />
+    <state x="349" y="144" key="new project wizard" timestamp="1586151732370">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="349" y="144" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1586151732370" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

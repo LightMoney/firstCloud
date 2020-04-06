@@ -6,7 +6,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka8080.com:8080/eureka/ ,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+      defaultZone: http://eureka8080.com:8080/eureka/
   instance:
     instance-id: zuul
     prefer-ip-address: true
@@ -22,4 +22,4 @@ zuul:
     h.serviceId: clould-provider
     h.path: /mydept/**
   prefix: /mist
-  ignored-services: "*"
+  ignored-services: "*"      #忽略服务名称

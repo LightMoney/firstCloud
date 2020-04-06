@@ -73,9 +73,6 @@
         <module>zuul</module>
         <module>first-configure</module>
         <module>config-client</module>
-        <module>spring-security</module>
-        <module>test-oauth</module>
-        <module>springcloud-security</module>
     </modules>
 
     <properties>
@@ -179,11 +176,7 @@
                 <artifactId>commons-io</artifactId>
                 <version>${commons-io.version}</version>
             </dependency>
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-io</artifactId>
-                <version>${org.apache.commons.io.version}</version>
-            </dependency>
+
             <dependency>
                 <groupId>commons-fileupload</groupId>
                 <artifactId>commons-fileupload</artifactId>
@@ -225,23 +218,10 @@
             <!--<version>${fastdfs-client-java.version}</version>-->
             <!--</dependency>-->
 
-            <dependency>
-                <groupId>cn.bestwu</groupId>
-                <artifactId>fastdfs-client-java</artifactId>
-                <version>1.27</version>
-            </dependency>
 
-            <dependency>
-                <groupId>org.elasticsearch.client</groupId>
-                <artifactId>elasticsearch-rest-high-level-client</artifactId>
-                <version>${elasticsearch.version}</version>
-            </dependency>
+
             <!--https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch-->
-            <dependency>
-                <groupId>org.elasticsearch</groupId>
-                <artifactId>elasticsearch</artifactId>
-                <version>${elasticsearch.version}</version>
-            </dependency>
+
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
@@ -280,9 +260,11 @@
             </dependency>
 
             <dependency>
-                <groupId>net.glxn</groupId>
-                <artifactId>qrgen</artifactId>
-                <version>${qrgen.version}</version>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Dalston.SR5</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
 

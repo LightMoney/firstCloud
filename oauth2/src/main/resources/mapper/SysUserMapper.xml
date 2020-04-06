@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.fan.oauth2.mapper.SysUserMapper">
+    
+    <resultMap id="selectByUserNameMap" type="cn.fan.oauth2.model.SysUser">
+        <id property="id" column="id"/>
+        <result property="username" column="name"/>
+        <result property="password" column="password"/>
+        <collection property="authorities" ofType="cn.fan.oauth2.model.SysRole">
+            <id property="id" column="roleId"/>
+            <result property="authority" column="name"/>
+        </collection>
+    </resultMap>
+
+    <!-- 查询用户的同时，查询出用户拥有的所有角色 -->
+    <select id="selectByUserName" parameterType="java.lang.String" resultMap="selectByUserNameMap">
+        select
+        a.id,
+        a.name,
+        a.password,
+        c.id as "roleId",c.name
+        from sys_user a
+        LEFT OUTER JOIN sys_user_role b on b.user_id = a.id
+        LEFT OUTER JOIN sys_role c on c.id = b.role_id
+        where a.name = #{username}
+    </select>
+
+</mapper>
+
+

@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: oauth2
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/cps?characterEncoding=utf8&serverTimezone=UTC
+    password: root
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 8011
+    #  如果资源服务器未单独分出来需配置，否者
+  #security:
+  ##  oauth2:
+  ##    resource:
+  ##      filter-order: 3
+
+mybatis:
+ mapper-locations: classpath:mapper/*Mapper.xml
+
+#  https://www.cnblogs.com/guos/p/11642094.html
