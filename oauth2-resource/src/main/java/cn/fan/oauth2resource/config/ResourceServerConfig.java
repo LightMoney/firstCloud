@@ -45,7 +45,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
         RemoteTokenServices remoteTokenServices = new RemoteTokenServices();
         remoteTokenServices.setAccessTokenConverter(accessTokenConverter());
         remoteTokenServices.setRestTemplate(restTemplate);
-        remoteTokenServices.setCheckTokenEndpointUrl("http://localhost:8011/oauth/check_token");//检查令牌是否有效
+        remoteTokenServices.setCheckTokenEndpointUrl("http://localhost:8011/oauth/check_token");//检查令牌是否有效，通过注册中心后动态跳转
         remoteTokenServices.setClientId("root");
         remoteTokenServices.setClientSecret("user");
 
