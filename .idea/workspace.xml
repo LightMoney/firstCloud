@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6858e419-b56e-410e-8529-dde5b4564b3c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth2-resource/src/main/java/cn/fan/oauth2resource/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/cn/fan/oauth2resource/config/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-resource/src/main/java/cn/fan/oauth2resource/config/RequestInterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/cn/fan/oauth2resource/config/RequestInterceptorConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,6 +330,10 @@
       <workItem from="1586400376726" duration="1781000" />
       <workItem from="1586413700394" duration="3422000" />
       <workItem from="1586480049934" duration="2566000" />
+      <workItem from="1586594899495" duration="3057000" />
+      <workItem from="1587343282793" duration="3113000" />
+      <workItem from="1587357363318" duration="1848000" />
+      <workItem from="1587428678220" duration="1660000" />
     </task>
     <servers />
   </component>
@@ -410,10 +413,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1069" height="315" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1586164340775" />
-    <state x="480" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584578824909">
+    <state x="480" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1587428678208">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="480" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1584578824909" />
+    <state x="480" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1587428678208" />
     <state x="476" y="163" width="647" height="534" key="find.popup" timestamp="1586166878910">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

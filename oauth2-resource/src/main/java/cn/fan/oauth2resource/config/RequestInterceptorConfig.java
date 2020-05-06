@@ -7,7 +7,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationDetails;
 
 /**
- *配置拦截将令牌放入header中   令牌中继
+ *配置拦截将令牌放入header中   令牌中继  处理feign调用权限内容不存在
  */
 @Configuration
 public class RequestInterceptorConfig implements RequestInterceptor {
