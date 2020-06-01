@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/config-client/pom.xml" />
         <option value="$PROJECT_DIR$/oauth2/pom.xml" />
         <option value="$PROJECT_DIR$/oauth2-resource/pom.xml" />
+        <option value="$PROJECT_DIR$/tx-manager/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

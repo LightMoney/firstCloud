@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="eurka-server2" />
+        <module name="oauth2-resource" />
         <module name="consumer-feign" />
         <module name="eurka-server3" />
-        <module name="eurka-server2" />
+        <module name="tx-manager" />
         <module name="oauth2" />
         <module name="zuul" />
         <module name="second-provider" />
         <module name="hystrix" />
         <module name="eurka-server" />
         <module name="first-provider" />
-        <module name="config-client" />
         <module name="first-configure" />
         <module name="dashboard" />
-        <module name="oauth2-resource" />
         <module name="api" />
         <module name="first-consumer" />
       </profile>
@@ -37,6 +38,7 @@
       <module name="oauth2" options="" />
       <module name="oauth2-resource" options="" />
       <module name="springcloud-security" options="" />
+      <module name="tx-manager" options="-parameters" />
     </option>
   </component>
 </project>

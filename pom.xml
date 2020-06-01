@@ -124,13 +124,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Dalston.SR5</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>org.springframework.cloud</groupId>-->
+<!--                <artifactId>spring-cloud-dependencies</artifactId>-->
+<!--                <version>Dalston.SR5</version>-->
+<!--                <type>pom</type>-->
+<!--                <scope>import</scope>-->
+<!--            </dependency>-->
             <!--SpringBoot版本-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -212,11 +212,7 @@
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
             </dependency>
-            <!--<dependency>-->
-            <!--<groupId>net.oschina.zcx7878</groupId>-->
-            <!--<artifactId>fastdfs-client-java</artifactId>-->
-            <!--<version>${fastdfs-client-java.version}</version>-->
-            <!--</dependency>-->
+
 
 
 
