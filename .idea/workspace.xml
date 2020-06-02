@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6858e419-b56e-410e-8529-dde5b4564b3c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6858e419-b56e-410e-8529-dde5b4564b3c" name="Default" comment="添加sql文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +71,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mongo" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -98,16 +95,16 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\firstCloud\spring-security\src\main\resources" />
+      <recent name="E:\workspace\firstCloud\conf" />
+      <recent name="E:\workspace\firstCloud\spring-security\src\main\resources\templates" />
+      <recent name="E:\workspace\firstCloud\spring-security\src\main\resources\static" />
+      <recent name="E:\workspace\firstCloud\spring-security\src\main\resources\template" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.fan.oauth2resource" />
       <recent name="cn.fan" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\firstCloud\oauth2-resource\src\main\java\cn\fan\oauth2resource\config" />
-      <recent name="E:\workspace\firstCloud\oauth2\src\main\java\cn\fan\oauth2\controller" />
-      <recent name="E:\workspace\firstCloud\oauth2\src\main\java\cn\fan\oauth2" />
-      <recent name="E:\workspace\firstCloud\oauth2\src\main\java\cn\fan\oauth2\service" />
-      <recent name="E:\workspace\firstCloud\oauth2\src\main\java\cn\fan\oauth2\model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.fan.oauth2.controller" />
@@ -116,12 +113,12 @@
       <recent name="cn.fan.web" />
       <recent name="cn.fan.security" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\firstCloud\spring-security\src\main\resources" />
-      <recent name="E:\workspace\firstCloud\conf" />
-      <recent name="E:\workspace\firstCloud\spring-security\src\main\resources\templates" />
-      <recent name="E:\workspace\firstCloud\spring-security\src\main\resources\static" />
-      <recent name="E:\workspace\firstCloud\spring-security\src\main\resources\template" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\firstCloud\tx-manager\src\main\resources\sql" />
+      <recent name="E:\workspace\firstCloud\oauth2-resource\src\main\java\cn\fan\oauth2resource\config" />
+      <recent name="E:\workspace\firstCloud\oauth2\src\main\java\cn\fan\oauth2\controller" />
+      <recent name="E:\workspace\firstCloud\oauth2\src\main\java\cn\fan\oauth2" />
+      <recent name="E:\workspace\firstCloud\oauth2\src\main\java\cn\fan\oauth2\service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -131,7 +128,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TxManagerApplication">
+  <component name="RunManager" selected="Spring Boot.EurkaServerApplication (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -305,6 +302,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
@@ -364,12 +366,24 @@
       <workItem from="1587428678220" duration="1660000" />
       <workItem from="1590545756763" duration="10910000" />
       <workItem from="1590631046615" duration="6640000" />
-      <workItem from="1590975263575" duration="5453000" />
+      <workItem from="1590975263575" duration="10456000" />
     </task>
+    <task id="LOCAL-00001" summary="添加sql文件">
+      <created>1590992504025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590992504025</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加sql文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加sql文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="430" y="66" key="#ConfigServerApplication" timestamp="1583914409133">
@@ -380,10 +394,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1590571431271" />
-    <state x="313" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583918500328">
+    <state x="313" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590992776669">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="313" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1583918500328" />
+    <state x="313" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1590992776669" />
     <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1586142608922">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -396,66 +410,70 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="546" y="252" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1600.860@0.0.1600.860" timestamp="1586152550738" />
-    <state x="434" y="23" key="CommitChangelistDialog2" timestamp="1590652231412">
+    <state x="434" y="23" key="CommitChangelistDialog2" timestamp="1590992501461">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="434" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1590652231412" />
+    <state x="434" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1590992501460" />
     <state x="667" y="150" key="FileChooserDialogImpl" timestamp="1590569567485">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="667" y="150" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1590569567485" />
-    <state width="1069" height="247" key="GridCell.Tab.0.bottom" timestamp="1590976922248">
+    <state width="1069" height="247" key="GridCell.Tab.0.bottom" timestamp="1591005726770">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590976922248" />
-    <state width="1069" height="247" key="GridCell.Tab.0.center" timestamp="1590976922247">
+    <state width="1069" height="247" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591005726770" />
+    <state width="1069" height="247" key="GridCell.Tab.0.center" timestamp="1591005726769">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590976922247" />
-    <state width="1069" height="247" key="GridCell.Tab.0.left" timestamp="1590976922247">
+    <state width="1069" height="247" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591005726769" />
+    <state width="1069" height="247" key="GridCell.Tab.0.left" timestamp="1591005726769">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590976922247" />
-    <state width="1069" height="247" key="GridCell.Tab.0.right" timestamp="1590976922247">
+    <state width="1069" height="247" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591005726769" />
+    <state width="1069" height="247" key="GridCell.Tab.0.right" timestamp="1591005726770">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590976922247" />
-    <state width="1069" height="247" key="GridCell.Tab.1.bottom" timestamp="1590976922248">
+    <state width="1069" height="247" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591005726770" />
+    <state width="1069" height="247" key="GridCell.Tab.1.bottom" timestamp="1591005726770">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590976922248" />
-    <state width="1069" height="247" key="GridCell.Tab.1.center" timestamp="1590976922248">
+    <state width="1069" height="247" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591005726770" />
+    <state width="1069" height="247" key="GridCell.Tab.1.center" timestamp="1591005726770">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1590976922248" />
-    <state width="1069" height="247" key="GridCell.Tab.1.left" timestamp="1590976922248">
+    <state width="1069" height="247" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1591005726770" />
+    <state width="1069" height="247" key="GridCell.Tab.1.left" timestamp="1591005726770">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1590976922248" />
-    <state width="1069" height="247" key="GridCell.Tab.1.right" timestamp="1590976922248">
+    <state width="1069" height="247" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1591005726770" />
+    <state width="1069" height="247" key="GridCell.Tab.1.right" timestamp="1591005726770">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1590976922248" />
-    <state width="1069" height="102" key="GridCell.Tab.2.bottom" timestamp="1590976364750">
+    <state width="1069" height="247" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1591005726770" />
+    <state width="1069" height="247" key="GridCell.Tab.2.bottom" timestamp="1591003948396">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="102" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590976364750" />
-    <state width="1069" height="102" key="GridCell.Tab.2.center" timestamp="1590976364750">
+    <state width="1069" height="247" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591003948396" />
+    <state width="1069" height="247" key="GridCell.Tab.2.center" timestamp="1591003948394">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="102" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1590976364750" />
-    <state width="1069" height="102" key="GridCell.Tab.2.left" timestamp="1590976364749">
+    <state width="1069" height="247" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1591003948394" />
+    <state width="1069" height="247" key="GridCell.Tab.2.left" timestamp="1591003948393">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="102" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1590976364749" />
-    <state width="1069" height="102" key="GridCell.Tab.2.right" timestamp="1590976364750">
+    <state width="1069" height="247" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1591003948393" />
+    <state width="1069" height="247" key="GridCell.Tab.2.right" timestamp="1591003948395">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="102" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1590976364750" />
+    <state width="1069" height="247" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1591003948395" />
     <state x="301" y="72" key="SettingsEditor" timestamp="1590635063994">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1590635063994" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1590992512518">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1590992512518" />
     <state x="480" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1587428678208">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
