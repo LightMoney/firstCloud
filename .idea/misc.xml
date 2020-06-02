@@ -21,6 +21,8 @@
         <option value="$PROJECT_DIR$/oauth2/pom.xml" />
         <option value="$PROJECT_DIR$/oauth2-resource/pom.xml" />
         <option value="$PROJECT_DIR$/tx-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/tx-client1/pom.xml" />
+        <option value="$PROJECT_DIR$/tx-client2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

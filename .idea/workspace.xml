@@ -2,6 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6858e419-b56e-410e-8529-dde5b4564b3c" name="Default" comment="添加sql文件">
+      <change afterPath="$PROJECT_DIR$/tx-client1/src/main/java/cn/fan/txclient1/banka/AController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client1/src/main/java/cn/fan/txclient1/banka/AService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client1/src/main/java/cn/fan/txclient1/banka/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client1/src/main/java/cn/fan/txclient1/banka/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client1/src/main/java/cn/fan/txclient1/banka/BankBClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client2/src/main/java/cn/fan/txclient2/TxClient2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client2/src/main/java/cn/fan/txclient2/bankb/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client2/src/main/java/cn/fan/txclient2/bankb/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client2/src/main/java/cn/fan/txclient2/bankb/BController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client2/src/main/java/cn/fan/txclient2/bankb/BService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-client2/src/test/java/cn/fan/txclient1/TxClient1ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tx-manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,10 +106,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tx-manager/src/main/resources/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tx-client2/src/main/java/cn/fan/txclient2/bankb" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33908045" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -95,30 +118,30 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.fan.oauth2resource" />
+      <recent name="cn.fan" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\firstCloud\tx-client2\src\main\java\cn\fan\txclient2\bankb" />
+      <recent name="E:\workspace\firstCloud" />
+      <recent name="E:\workspace\firstCloud\tx-client1\src\main\java\cn\fan\txclient1\banka" />
+      <recent name="E:\workspace\firstCloud\tx-manager\src\main\resources\sql" />
+      <recent name="E:\workspace\firstCloud\oauth2-resource\src\main\java\cn\fan\oauth2resource\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.fan.txclient2" />
+      <recent name="cn.fan.oauth2.controller" />
+      <recent name="cn.fan.config" />
+      <recent name="cn.fan.handler" />
+      <recent name="cn.fan.web" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\firstCloud\spring-security\src\main\resources" />
       <recent name="E:\workspace\firstCloud\conf" />
       <recent name="E:\workspace\firstCloud\spring-security\src\main\resources\templates" />
       <recent name="E:\workspace\firstCloud\spring-security\src\main\resources\static" />
       <recent name="E:\workspace\firstCloud\spring-security\src\main\resources\template" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="cn.fan.oauth2resource" />
-      <recent name="cn.fan" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.fan.oauth2.controller" />
-      <recent name="cn.fan.config" />
-      <recent name="cn.fan.handler" />
-      <recent name="cn.fan.web" />
-      <recent name="cn.fan.security" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\firstCloud\tx-manager\src\main\resources\sql" />
-      <recent name="E:\workspace\firstCloud\oauth2-resource\src\main\java\cn\fan\oauth2resource\config" />
-      <recent name="E:\workspace\firstCloud\oauth2\src\main\java\cn\fan\oauth2\controller" />
-      <recent name="E:\workspace\firstCloud\oauth2\src\main\java\cn\fan\oauth2" />
-      <recent name="E:\workspace\firstCloud\oauth2\src\main\java\cn\fan\oauth2\service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -128,7 +151,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurkaServerApplication (1)">
+  <component name="RunManager" selected="Spring Boot.TxClient2Application">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -249,6 +272,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TxClient1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tx-client1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.fan.txclient1.TxClient1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TxClient2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tx-client2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.fan.txclient2.TxClient2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TxManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="tx-manager" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.txmanager.TxManagerApplication" />
@@ -278,6 +315,8 @@
       <item itemvalue="Spring Boot.ApplicationSecurity" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.ApplicationFirstProvider8082" />
+      <item itemvalue="Spring Boot.TxClient1Application" />
+      <item itemvalue="Spring Boot.TxClient2Application" />
     </list>
     <recent_temporary>
       <list>
@@ -298,11 +337,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -367,6 +401,7 @@
       <workItem from="1590545756763" duration="10910000" />
       <workItem from="1590631046615" duration="6640000" />
       <workItem from="1590975263575" duration="10456000" />
+      <workItem from="1591057877557" duration="20728000" />
     </task>
     <task id="LOCAL-00001" summary="添加sql文件">
       <created>1590992504025</created>
@@ -390,10 +425,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="430" y="66" key="#ConfigServerApplication/0.0.1600.860@0.0.1600.860" timestamp="1583914409133" />
-    <state x="392" y="88" key="#Project_Structure" timestamp="1590571431271">
+    <state x="392" y="88" key="#Project_Structure" timestamp="1591062829819">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="88" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1590571431271" />
+    <state x="392" y="88" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1591062829819" />
     <state x="313" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590992776669">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -410,62 +445,70 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="546" y="252" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1600.860@0.0.1600.860" timestamp="1586152550738" />
+    <state x="544" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591078531192">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="544" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1591078531192" />
     <state x="434" y="23" key="CommitChangelistDialog2" timestamp="1590992501461">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="434" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1590992501460" />
-    <state x="667" y="150" key="FileChooserDialogImpl" timestamp="1590569567485">
+    <state x="667" y="150" key="FileChooserDialogImpl" timestamp="1591060580907">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="667" y="150" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1590569567485" />
-    <state width="1069" height="247" key="GridCell.Tab.0.bottom" timestamp="1591005726770">
+    <state x="667" y="150" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1591060580907" />
+    <state width="1069" height="247" key="GridCell.Tab.0.bottom" timestamp="1591081728017">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591005726770" />
-    <state width="1069" height="247" key="GridCell.Tab.0.center" timestamp="1591005726769">
+    <state width="1069" height="247" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591081728017" />
+    <state width="1069" height="247" key="GridCell.Tab.0.center" timestamp="1591081728017">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591005726769" />
-    <state width="1069" height="247" key="GridCell.Tab.0.left" timestamp="1591005726769">
+    <state width="1069" height="247" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591081728017" />
+    <state width="1069" height="247" key="GridCell.Tab.0.left" timestamp="1591081728016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591005726769" />
-    <state width="1069" height="247" key="GridCell.Tab.0.right" timestamp="1591005726770">
+    <state width="1069" height="247" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591081728016" />
+    <state width="1069" height="247" key="GridCell.Tab.0.right" timestamp="1591081728017">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591005726770" />
-    <state width="1069" height="247" key="GridCell.Tab.1.bottom" timestamp="1591005726770">
+    <state width="1069" height="247" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591081728017" />
+    <state width="1069" height="247" key="GridCell.Tab.1.bottom" timestamp="1591081728017">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591005726770" />
-    <state width="1069" height="247" key="GridCell.Tab.1.center" timestamp="1591005726770">
+    <state width="1069" height="247" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591081728017" />
+    <state width="1069" height="247" key="GridCell.Tab.1.center" timestamp="1591081728017">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1591005726770" />
-    <state width="1069" height="247" key="GridCell.Tab.1.left" timestamp="1591005726770">
+    <state width="1069" height="247" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1591081728017" />
+    <state width="1069" height="247" key="GridCell.Tab.1.left" timestamp="1591081728017">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1591005726770" />
-    <state width="1069" height="247" key="GridCell.Tab.1.right" timestamp="1591005726770">
+    <state width="1069" height="247" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1591081728017" />
+    <state width="1069" height="247" key="GridCell.Tab.1.right" timestamp="1591081728017">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1591005726770" />
-    <state width="1069" height="247" key="GridCell.Tab.2.bottom" timestamp="1591003948396">
+    <state width="1069" height="247" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1591081728017" />
+    <state width="1069" height="247" key="GridCell.Tab.2.bottom" timestamp="1591079553171">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591003948396" />
-    <state width="1069" height="247" key="GridCell.Tab.2.center" timestamp="1591003948394">
+    <state width="1069" height="247" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591079553171" />
+    <state width="1069" height="247" key="GridCell.Tab.2.center" timestamp="1591079553171">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1591003948394" />
-    <state width="1069" height="247" key="GridCell.Tab.2.left" timestamp="1591003948393">
+    <state width="1069" height="247" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1591079553171" />
+    <state width="1069" height="247" key="GridCell.Tab.2.left" timestamp="1591079553170">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1591003948393" />
-    <state width="1069" height="247" key="GridCell.Tab.2.right" timestamp="1591003948395">
+    <state width="1069" height="247" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1591079553170" />
+    <state width="1069" height="247" key="GridCell.Tab.2.right" timestamp="1591079553171">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="247" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1591003948395" />
+    <state width="1069" height="247" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1591079553171" />
+    <state x="367" y="144" key="IDE.errors.dialog" timestamp="1591076113903">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="367" y="144" key="IDE.errors.dialog/0.0.1600.860@0.0.1600.860" timestamp="1591076113903" />
     <state x="301" y="72" key="SettingsEditor" timestamp="1590635063994">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -474,18 +517,18 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1590992512518" />
-    <state x="480" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1587428678208">
+    <state x="480" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1591058038162">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="480" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1587428678208" />
+    <state x="480" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1591058038162" />
     <state x="476" y="163" width="647" height="534" key="find.popup" timestamp="1586166878910">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="476" y="163" width="647" height="534" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1586166878910" />
-    <state x="349" y="144" key="new project wizard" timestamp="1590546713903">
+    <state x="349" y="144" key="new project wizard" timestamp="1591058310439">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="349" y="144" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1590546713903" />
+    <state x="349" y="144" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1591058310439" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1590634694496">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -498,6 +541,16 @@
           <url>file://$PROJECT_DIR$/first-consumer/src/main/java/cn/config/myrule/RandomRule_ZY.java</url>
           <line>50</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tx-client1/src/main/java/cn/fan/txclient1/banka/AService.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tx-client1/src/main/java/cn/fan/txclient1/banka/AService.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
