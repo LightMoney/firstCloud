@@ -4,6 +4,7 @@ package cn.fan.txclient2.bankb;
 import  org.springframework.stereotype.Service;
 import com.codingapi.txlcn.tc.annotation.LcnTransaction;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * @Description TODO
@@ -17,6 +18,7 @@ public class BService {
     AccountDao accountDao;
 
     @LcnTransaction
+//    @Transactional
     public String addMoney(int money, String user) {
         Account account = new Account();
         account.setMoney(money);

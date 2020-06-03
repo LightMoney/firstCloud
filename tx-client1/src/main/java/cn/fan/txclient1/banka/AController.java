@@ -1,5 +1,6 @@
 package cn.fan.txclient1.banka;
 
+import com.codingapi.txlcn.common.exception.LcnBusinessException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -17,7 +18,7 @@ public class AController {
     AService service;
 
     @GetMapping("/start")
-    public String start(@RequestParam("money") int money){
+    public String start(@RequestParam("money") int money)  {
         return service.start(money);
     }
 }

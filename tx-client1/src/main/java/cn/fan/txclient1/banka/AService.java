@@ -1,7 +1,9 @@
 package cn.fan.txclient1.banka;
 
 
+import com.codingapi.txlcn.common.exception.LcnBusinessException;
 import com.codingapi.txlcn.tc.annotation.LcnTransaction;
+import com.codingapi.txlcn.tc.annotation.TccTransaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -21,7 +23,7 @@ public class AService {
 
     @LcnTransaction
 //    @Transactional
-    public String start(int money) {
+    public String start(int money)  {
         String user = "shen";
         String state = bankBClient.addMoney(money,user);
         if ("success".equals(state)){
@@ -29,8 +31,9 @@ public class AService {
             account.setMoney(money);
             account.setUser(user);
             int res = accountDao.update(account);
-            throw new RuntimeException("error runtime");
-//            return res>0?"success":"error";
+//            throw new RuntimeException("error runtime");
+
+            return res>0?"success":"error";
         }
         return "error";
     }

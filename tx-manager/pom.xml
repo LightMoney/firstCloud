@@ -69,6 +69,10 @@
             <artifactId>txlcn-tm</artifactId>
             <version>5.0.2.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
         <!-- alibaba的druid数据库连接池 -->
 <!--        <dependency>-->
 <!--            <groupId>com.alibaba</groupId>-->
